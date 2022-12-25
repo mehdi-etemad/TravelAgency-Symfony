@@ -3,3 +3,6 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+panel_main_index:
+    path: /
+    controller: App\Controller\PanelMainController::index
